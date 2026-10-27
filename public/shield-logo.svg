@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3C64F" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#8A6D1B" />
+    </linearGradient>
+    <linearGradient id="oliveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#19241E" />
+      <stop offset="100%" stop-color="#090C0A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Tactical Ring -->
+  <circle cx="60" cy="60" r="56" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.55" />
+  <circle cx="60" cy="60" r="50" stroke="#2D4236" stroke-width="1" />
+
+  <!-- Crosshair Ticks -->
+  <line x1="60" y1="2" x2="60" y2="12" stroke="url(#goldGrad)" stroke-width="2" />
+  <line x1="60" y1="108" x2="60" y2="118" stroke="url(#goldGrad)" stroke-width="2" />
+  <line x1="2" y1="60" x2="12" y2="60" stroke="url(#goldGrad)" stroke-width="2" />
+  <line x1="108" y1="60" x2="118" y2="60" stroke="url(#goldGrad)" stroke-width="2" />
+
+  <!-- Shield Base -->
+  <path
+    d="M60 18L26 32V58C26 81.5 40.5 101.8 60 108C79.5 101.8 94 81.5 94 58V32L60 18Z"
+    fill="url(#oliveGrad)"
+    stroke="url(#goldGrad)"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner Shield Border -->
+  <path
+    d="M60 25L33 36.2V58C33 77.2 44.5 94.1 60 99.8C75.5 94.1 87 77.2 87 58V36.2L60 25Z"
+    stroke="#4A6B58"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+  />
+
+  <!-- CFO / Officer Star & Chevrons -->
+  <polygon
+    points="60,36 63.5,45.5 73.5,45.5 65.5,51.2 68.5,60.8 60,55 51.5,60.8 54.5,51.2 46.5,45.5 56.5,45.5"
+    fill="url(#goldGrad)"
+  />
+  <path d="M44 72L60 64L76 72" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48 81L60 74.5L72 81" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85" />
+</svg>

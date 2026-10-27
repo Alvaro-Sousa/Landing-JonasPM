@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+tsconfig.tsbuildinfo
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Raw assets not meant for public deployment
+fotos jonas-pm/
+
+# Logs & OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
